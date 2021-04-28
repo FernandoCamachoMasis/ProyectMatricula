@@ -1,0 +1,14 @@
+servicios\modelo\Administrador.class
+servicios\modelo\Area_Tematica.class
+servicios\modelo\Estado.class
+servicios\modelo\Curso.class
+servicios\modelo\Matricula.class
+servicios\modelo\Usuario.class
+servicios\modelo\Estudiante.class
+servicios\modelo\Profesor.class
+servicios\modelo\Especialidad.class
+services\ServicioLogin.class
+services\ServicioLogout.class
+servicios\modelo\Grupo.class
+servicios\modelo\Horario.class
+servicios\modelo\Rol.class

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="contents">
+                <h2>
+                    Página de ingreso
+                </h2>
+                <form name="loginForm" action="ServicioLogin"
+                      method="POST">
+                    <table  class="tablaLogin">
+                        <tr>
+                            <td align="right">
+                                Usuario:&nbsp;
+                            </td><td>
+                                <input type="text" size="20"
+                                       id="usuario" name="usuario" autocomplete="off" />
+                            </td>
+                        </tr><tr>
+                            <td align="right">
+                                Clave:&nbsp;
+                            </td><td>
+                                <input type="password" size="20"
+                                       id="password" name="password" />
+                            </td>
+                        </tr><tr>
+                            <td class="Ingresar" colspan="2">
+                                <button type="submit">Ingresar</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
